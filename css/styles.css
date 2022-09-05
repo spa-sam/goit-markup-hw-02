@@ -63,7 +63,7 @@ header .logo-studio {
   color: var(--accent-color);
 }
 
-.link.current {
+.nav-link.current {
   color: var(--accent-color);
 }
 
