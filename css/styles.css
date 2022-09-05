@@ -120,6 +120,7 @@ footer .logo-studio {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .hero button:hover,
