@@ -102,7 +102,6 @@ footer .logo-studio {
 }
 
 .hero .top {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -114,7 +113,6 @@ footer .logo-studio {
 
 .hero button {
   display: flex;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -130,7 +128,6 @@ footer .logo-studio {
 }
 
 .features-titel {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -139,15 +136,12 @@ footer .logo-studio {
 }
 
 .features .text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .work-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -158,7 +152,6 @@ footer .logo-studio {
   background-color: #f5f4fa;
 }
 .team-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -166,9 +159,6 @@ footer .logo-studio {
 }
 
 .job {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -191,11 +181,11 @@ footer .logo-studio {
 .filter button:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .work-name {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -204,8 +194,6 @@ footer .logo-studio {
 
 .work-filter {
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
