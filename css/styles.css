@@ -79,6 +79,7 @@ h3 {
 /*футер*/
 .bottom {
   background: var(--footer-background);
+  font-family: inherit;
 }
 
 footer .logo-studio {
@@ -170,10 +171,15 @@ footer .logo-studio {
   letter-spacing: 0.03em;
 }
 
+.list-item {
+  background-color: var(--primary-white-color);
+}
+
 /* портфолио */
 
 /*фильтр*/
 .filter button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -203,4 +209,17 @@ footer .logo-studio {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
